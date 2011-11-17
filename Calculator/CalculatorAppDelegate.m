@@ -6,9 +6,9 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CalculatorAppDelegate.h"
 
-#import "ViewController.h"
+#import "CalculatorViewController.h"
 
 @implementation AppDelegate
 

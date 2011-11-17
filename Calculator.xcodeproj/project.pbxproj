@@ -16,7 +16,7 @@
 		E42E3BA014705E1900C8EF83 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42E3B9F14705E1900C8EF83 /* CalculatorViewController.m */; };
 		E42E3BA314705E1900C8EF83 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42E3BA114705E1900C8EF83 /* CalculatorViewController.xib */; };
 		E42E3BAB14705F5C00C8EF83 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E42E3BAA14705F5C00C8EF83 /* CalculatorBrain.m */; };
-		E42E3BE61470A10500C8EF83 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E42E3BE51470A10500C8EF83 /* Icon.png */; };
+		E43860961475D42E0008BD85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E43860951475D42E0008BD85 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		E42E3BA214705E1900C8EF83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E42E3BA914705F5C00C8EF83 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		E42E3BAA14705F5C00C8EF83 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
-		E42E3BE51470A10500C8EF83 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E43860951475D42E0008BD85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		E42E3B7D14705E1800C8EF83 = {
 			isa = PBXGroup;
 			children = (
+				E43860941475D3F00008BD85 /* Resources */,
 				E42E3B9214705E1900C8EF83 /* Calculator */,
 				E42E3B8B14705E1800C8EF83 /* Frameworks */,
 				E42E3B8914705E1800C8EF83 /* Products */,
@@ -101,9 +102,16 @@
 				E42E3B9514705E1900C8EF83 /* InfoPlist.strings */,
 				E42E3B9814705E1900C8EF83 /* main.m */,
 				E42E3B9A14705E1900C8EF83 /* Calculator-Prefix.pch */,
-				E42E3BE51470A10500C8EF83 /* Icon.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E43860941475D3F00008BD85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E43860951475D42E0008BD85 /* Icon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +166,7 @@
 			files = (
 				E42E3B9714705E1900C8EF83 /* InfoPlist.strings in Resources */,
 				E42E3BA314705E1900C8EF83 /* CalculatorViewController.xib in Resources */,
-				E42E3BE61470A10500C8EF83 /* Icon.png in Resources */,
+				E43860961475D42E0008BD85 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +290,7 @@
 				E42E3BA814705E1900C8EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
